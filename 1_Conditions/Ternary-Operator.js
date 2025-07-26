@@ -14,5 +14,5 @@ console.log(res);
 //--------------------
 
 num = 1;
-res = num >= 0? 1 : 2;
+res = num >= 0 ? 1 : 2;
 console.log(res);
