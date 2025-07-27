@@ -48,9 +48,12 @@ for (let i = 10; i < 1001; i++){
 for (let i = 10; i < 1001; i++){
     
     let str = i.toString();
+
     let first = parseInt(str[0], 10); // Преобразуем в число
     let second = parseInt(str[1], 10); // Преобразуем в число
     let sum = first + second;
+
+
     if(sum === 5){
         console.log(i);
     }
